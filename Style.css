@@ -12,7 +12,7 @@ body {
   width: 100%;
   height: 4rem;
   position: fixed;
-  background-color: rgb(255, 0, 0);
+  background-color: white;
   user-select: none;
   display: flex;
   justify-content: space-between;
@@ -58,4 +58,156 @@ body {
   vertical-align: middle;
   padding-right: 1rem;
   font-family: "Times New Roman", Times, serif;
+}
+
+.learncontainer {
+  background-color: lightgrey;
+  width: 100%;
+  height: 100%;
+}
+
+.learn {
+  padding-top: 6rem;
+  padding-bottom: 2rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}
+
+.learn img {
+  width: 60%;
+  padding-right: 1.5rem;
+}
+
+.learntext {
+  flex-direction: column;
+  vertical-align: middle;
+  width: 30%;
+  color: rgb(63, 63, 63);
+  display: flex;
+  align-items: center;
+}
+
+.learntext h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.learntext p {
+  font-size: 1.5rem;
+}
+
+.starthere {
+  background-color: rgb(63, 63, 63);
+  height: 3rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.practise {
+  display: flex;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.practisecontainer {
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  width: 60%;
+}
+
+.practisecontainer p {
+  margin-top: 1.5rem;
+}
+
+.practisecontainer img {
+  width: 100%;
+}
+
+.practisegallery {
+  width: 40%;
+  border-left: 0.5px solid lightgray;
+  display: flex;
+  flex-direction: column;
+}
+
+.practisegallery img {
+  width: 35%;
+  height: auto;
+  margin: 1rem;
+}
+.gallery1,
+.gallery2,
+.gallery3 {
+  display: flex;
+  flex-direction: row;
+}
+
+.gallery1:hover,
+.gallery2:hover,
+.gallery3:hover {
+  transition: 0.5s ease-in-out 0.1s;
+  background-color: lightgray;
+}
+
+.gallery1text,
+.gallery2text,
+.gallery3text {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+}
+
+.gallery1text p,
+.gallery1text h2,
+.gallery2text p,
+.gallery2text h2,
+.gallery3text p,
+.gallery3text h2 {
+  margin-bottom: 0.5rem;
+}
+
+.start {
+  background-color: lightgray;
+  text-align: center;
+  padding: 2rem 4.5rem;
+}
+
+.start p {
+  margin-top: 2rem;
+}
+
+.startgallery {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.box {
+  flex-direction: column;
+  background-color: white;
+  margin-bottom: 2rem;
+  margin-right: 2rem;
+}
+
+.startgallery img {
+  height: auto;
+}
+
+.exhibit h1 {
+  margin: 2rem;
+  text-align: center;
+}
+
+.exhibitcontainer {
+}
+
+.exhibitcontainer video {
+  width: 60%;
 }
